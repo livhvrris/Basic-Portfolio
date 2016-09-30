@@ -36,13 +36,7 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
-.aside-header {
-    float: left;
-    width: 33%;
-    margin-left: 30px;
-}
-
-h1 {
+ul h1 {
     font-family: "Georgia", Times, Times New Roman, serif;
     font-size: 35px;
     float: left;
@@ -88,6 +82,7 @@ section {
     width: 650px;
     float: left;
     position: relative;
+    z-index: -1;
 }
 
 aside {
@@ -101,6 +96,17 @@ aside {
     border: 1px solid #cccccc;
     width: 270px;
     float: left;
+}
+
+#selfie {
+    margin-top: 15%;
+}
+
+p {
+    float: left;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #logo {
@@ -117,17 +123,20 @@ footer {
    bottom:0px;
    width:100%;
    background:#999;
+   color: white;
 }
 
 #footer-top {
     background-color: #4aaaa5;
-    height:30px;
+    height:10px;
 }
 
 #footer-bottom {
     text-align: center;
     background-color: #666666;
     height:100px;
+    vertical-align: -50px;
+   line-height: 100px;
 }
 
 /* FOOTER END */
