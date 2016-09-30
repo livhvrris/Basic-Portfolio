@@ -104,15 +104,15 @@ aside {
     float: left;
 }
 
-#selfie {
-    margin-top: 15%;
-}
-
 p {
     float: left;
     line-height: 25px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+p img {
+    padding-bottom: 15px;
 }
 
 #logo {
