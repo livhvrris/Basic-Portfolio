@@ -34,6 +34,12 @@ li a:hover {
 
 .active {
     background-color: #4aaaa5;
+    color: white;
+}
+
+.name-header {
+    background-color: #4aaaa5;
+    color: white;
 }
 
 ul h1 {
